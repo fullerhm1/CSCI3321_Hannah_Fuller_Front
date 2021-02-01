@@ -8,33 +8,53 @@ h1, p.Bodytext{
 text-align: center;
 }
 h2{
-font-size: 22px;
+font-size: 20px;
+font-family: 'Brush Script MS', cursive;
 }
 p.DishDesc{
 font-size: 16px;
 }
 div{
-width: 350px;
-padding: 15px;
+width: 400px;
+padding: 10px;
 border: 5px solid purple;
 margin: 10px;
 background-color: #eeeeee;
 }
+img{
+width: 150px;
+height: 300px;
+}
 div.Ingredients{
 width: 250px;
 padding: 1px;
-border: 5px solid #eeeeee;
+border: 1px solid #eeeeee;
 margin: 1px;
+}
+div.flex-container, div.flex-containerB{
+display: flex;
+align-content: space-between;
+}
+div.flex-container{
+width: 350px;
+justify-content: center;
+border: 5px solid #eeeeee;
+}
+div.flex-containerB{
+border: 5px solid #eeeefe;
+background-color: #eeeefe;
 }
 </style>
 <body>
-<h1 style="font-size: 28px;color: purple;">Hannah's Recipe Collection</h1>
-<p class="Bodytext" style="font-size: 18px;">The following are Hannah's three favorite recipes.</p>
+<h1 style="font-size: 28px;color: purple;font-family: Arial, Helvetica, sans-serif;">Hannah's Recipe Collection</h1>
+<p class="Bodytext" style="font-size: 16px;">The following are Hannah's three favorite recipes.</p>
 
+<div class="flex-containerB">
 <div class="MacNCheese">
 <h2>#1: Macaroni and Cheese Pizza</h2>
-<p class="DishDesc">Two of my favorite foods combined into one! A personal favorite of mine</p>
-<img src="https://www.thegunnysack.com/wp-content/uploads/2013/09/Mac_and_Cheese_Pizza_Recipe.jpg" width="150px" height="200px" style="border: 5px solid gold" alt="Macaroni and Cheese Pizza">
+<p class="DishDesc">Two of my favorite foods combined into one! A personal favorite of mine.</p>
+<div class="flex-container">
+<img src="https://www.thegunnysack.com/wp-content/uploads/2013/09/Mac_and_Cheese_Pizza_Recipe.jpg" style="border: 5px solid gold" alt="Macaroni and Cheese Pizza">
 <div class="Ingredients">
 <ul>
 <li>3 cups of any type of macaroni and cheese</li>
@@ -45,6 +65,7 @@ margin: 1px;
 <li>1/2 cup of shredded cheese of your choice</li>
 <li><b>Optional:</b> Food toppings</li>
 </ul>
+</div>
 </div>
 
 <ol>
@@ -61,7 +82,8 @@ margin: 1px;
 <div class="FunnelCake">
 <h2>#2: Funnel Cake</h2>
 <p>I used to eat these at fairs all the time, so I get a lot of nostalgia from this.</p>
-<img src="https://www.thegunnysack.com/wp-content/uploads/2020/06/Stack-Funnel-Cakes.jpg" width="150px" height="200px" style="border: 5px solid tan" alt="Funnel Cake">
+<div class="flex-container">
+<img src="https://www.thegunnysack.com/wp-content/uploads/2020/06/Stack-Funnel-Cakes.jpg" style="border: 5px solid tan" alt="Funnel Cake">
 <div class="Ingredients">
 <ul>
 <li>3 cups of flour</li>
@@ -75,6 +97,7 @@ margin: 1px;
 <li>1 quart of vegetable oil (used for frying)</li>
 <li><b>Optional:</b> Sweets for toppings</li>
 </ul>
+</div>
 </div>
 <p><b>NOTE:</b> A deep fryer is required for this recipe.</p>
 
@@ -90,6 +113,33 @@ margin: 1px;
 
 <div class="ChickenTenders">
 <h2>#3: Garlic Parmesan Chicken Tenders</h2>
-<img src="https://www.thegunnysack.com/wp-content/uploads/2018/04/Garlic-Parmesan-Chicken-Tenders-Recipe.jpg" width="150px" height="200px" style="border: 5px solid maroon" alt="Chicken Tenders"></div>
+<p>Who doesn't love themselves some nice chicken tenders? This combines garlic, Parmesan, and chicken all into one!</p>
+<div class="flex-container">
+<img src="https://www.thegunnysack.com/wp-content/uploads/2018/04/Garlic-Parmesan-Chicken-Tenders-Recipe.jpg" style="border: 5px solid maroon" alt="Chicken Tenders">
+<div class="Ingredients">
+<ul>
+<li>3 boneless, skinless chicken strips</li>
+<li>1/2 cup of panko</li>
+<li>1/2 cup of breadcrumbs (this recipe uses Italian breadcrumbs)</li>
+<li>1/2 cup of grated Parmesan cheese</li>
+<li>1 teaspoon of garlic powder</li>
+<li>1/2 cup of butter</li>
+</ul>
+</div>
+</div>
+<p><b>NOTE:</b> To make more chicken tenders, you may either repeat the recipe as many times as needed or multiple the amount of each ingredient.</p>
+
+<ol>
+<li>Cut each chicken strip into four separate strips.</li>
+<li>Mix the panko, breadcrumbs, grated Parmesan cheese, and garlic powder in a bowl, then set aside.</li>
+<li>In another bowl, melt the butter.</li>
+<li>Take each chicken strip and dip in the butter, then dip in the breadcrumbs mixture.</li>
+<li>Place the strips onto a large baking sheet, and bake in the oven at 400 degrees for 20 to 25 minutes.</li>
+<li>About halfway through cook time, flip the strips so that the other side also becomes golden brown.</li>
+<li>(<b>Optional:</b> You can use the broiler at the top of your over to brown the strips a bit more; do this for a few minutes.)</li>
+<li>Place the chicken strips on a plate and serve. Enjoy!</li>
+</ol>
+</div>
+</div>
 </body>
 </html>

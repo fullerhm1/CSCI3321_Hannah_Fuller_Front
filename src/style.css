@@ -1,0 +1,23 @@
+div {
+    /*Elements here later*/
+    padding: 10px;
+    border: 5px solid #646464;
+    justify-content: center;
+}
+
+div.Headerblock {
+    display: inline-block;
+}
+
+img.SFAlogo {
+    width: 150px;
+    height: 150px;
+}
+
+nav {
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}

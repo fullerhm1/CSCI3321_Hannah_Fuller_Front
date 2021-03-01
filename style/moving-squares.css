@@ -1,0 +1,39 @@
+div.Container{
+    width: 800px;
+    height: 460px;
+    border: 5px solid purple;
+    margin-left: auto;
+    margin-right: auto;
+    transition: border-radius 4s;
+}
+div.Odd, div.Even{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    margin: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 4s;
+}
+div.Odd{
+    background-color: forestgreen;
+}
+div.Even{
+    background-color: indigo;
+}
+h1{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+div.Container:hover{
+    border-radius: 30px;
+    height: 510px;
+}
+div.Container:hover .Odd{
+    transform: translateX(370px) rotate(-1080deg) scale(0.75);
+}
+
+div.Container:hover .Even{
+    transform: translateX(-330px) rotate(1080deg) scale(2);
+}

@@ -1,6 +1,6 @@
 function updateDisplay(value){
 	var disp = document.getElementById('display');
-
+	//currently not working on the html document
 	switch(value){
 		case '0':
 			if (disp.innerHTML === ''){

@@ -20,22 +20,20 @@
 
 .numkey, .opkey{
     background-color: white;
-    border: 2px solid white;
 }
 
 .equation{
     background-color: white;
-    border: 2px solid white;
 }
 
 .clear{
     background-color: white;
-    border: 2px solid white;
 }
 
 .numkey, .opkey, .equation, .clear{
 	cursor: pointer;
 	border-radius: 5px;
+	border: 2px solid white;
 }
 
 .display{

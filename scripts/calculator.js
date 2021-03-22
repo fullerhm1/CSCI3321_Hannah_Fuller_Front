@@ -46,7 +46,13 @@ function updateDisplay(value){
 			}
 			else{
 				var answer = eval(disp.innerHTML);
-				disp.innerHTML = answer;
+
+				if (disp.innerHTML.endsWith('/0') || disp.innerHTML.includes('/0+') || disp.innerHTML.includes('/0-') || disp.innerHTML.includes('/0*') || disp.innerHTML.includes('/0/')){
+					disp.innerHTML = 'Divide by 0 error'
+				}
+				else{
+					disp.innerHTML = answer;
+				}
 			}
 			break;
 	}

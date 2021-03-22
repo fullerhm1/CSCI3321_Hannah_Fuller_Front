@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html>
-    <!--Script imported at the end before end of body-->
     <head>
         <link rel="stylesheet" href="../style/calculator.css">
     </head>
 <body>
 <main>
     <div id="gridcontainer">
-        <div class="display"></div>
+        <div class="display" id="display"></div>
         <div class="opkey operatea" onclick="updateDisplay('+')">+</div>
         <div class="opkey operates" onclick="updateDisplay('-')">-</div>
         <div class="opkey operatem" onclick="updateDisplay('*')">*</div>
@@ -26,6 +25,6 @@
         <div class="numkey num0" onclick="updateDisplay('0')">0</div>
     </div>
 </main>
-	<script type="test/javascript" src="../scripts/calculator.js"></script>
+	<script type="text/javascript" src="../scripts/calculator.js"></script>
 </body>
 </html>

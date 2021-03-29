@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../style/tic-tac-toe.css">
+    </head>
+<body>
+<main>
+    <div id="gridcontainer">
+        <div id="t1" onclick="place('1')"></div>
+        <div id="t2" onclick="place('2')"></div>
+        <div id="t3" onclick="place('3')"></div>
+        <div id="t4" onclick="place('4')"></div>
+        <div id="t5" onclick="place('5')"></div>
+        <div id="t6" onclick="place('6')"></div>
+        <div id="t7" onclick="place('7')"></div>
+        <div id="t8" onclick="place('8')"></div>
+        <div id="t9" onclick="place('9')"></div>
+    </div>
+
+    <h2 class="display" id="display">Player X's turn</h2>
+
+    <h1>Rules:</h1>
+        <h3>2 players will take turns placing one piece (O or X) on the board at a time.</h3>
+        <h3>The goal is to make 3-in-a-row vertically, horizontally, or diagonally.</h3>
+        <h3>The game ends when a match is made or no further moves are available.</h3>
+</main>
+    <script type="text/javascript" src="../scripts/tic-tac-toe.js"></script>
+</body>
+</html>
